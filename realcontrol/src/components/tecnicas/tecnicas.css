@@ -47,8 +47,9 @@
 
 @media (min-width: 1000px) {
 	.buttonsContainer button{
-	margin-bottom: 0;
-}
+		margin-bottom: 0;
+	}
+
 }
 
 
@@ -71,6 +72,9 @@
     .displayX{
     	flex-direction: column;
     }
+    .displayX div{
+		padding-bottom: 48px;
+	}
    
 }
 
