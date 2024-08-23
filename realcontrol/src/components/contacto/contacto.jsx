@@ -21,8 +21,22 @@ export default function Header() {
                 DIRECCION: <br />
                 Calle 5 DE MAYO #32 <br />
                 Hermosillo, Sonora <br />
-                Entre No Releccion e Independencia<br />
+                Entre No Reelección e Independencia<br />
                 Col. Villa de Seris<br />
+
+                <br />
+
+                <iframe className='mapa' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1743.7885441544856!2d-110.959087!3d29.0590874!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ce8525a6c7572d%3A0x7db68607ad64c109!2sAv%205%20de%20Mayo%2032%2C%20Villa%20de%20Seris%2C%2083280%20Hermosillo%2C%20Son.!5e0!3m2!1ses-419!2smx!4v1724447389002!5m2!1ses-419!2smx"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
             </div>
       )
   }
+
+
+
+
+
+
+  
+  
+  

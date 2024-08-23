@@ -25,7 +25,7 @@ export default function Footer() {
 				DIRECCION: <br />
 				Calle 5 DE MAYO #32 <br />
 				Hermosillo, Sonora <br />
-				Entre No Releccion e Independencia<br />
+				Entre No Reelección e Independencia<br />
 				Col. Villa de Seris<br />
 
 
