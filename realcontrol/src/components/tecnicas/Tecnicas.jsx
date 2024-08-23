@@ -34,8 +34,9 @@ export default function Tecnicas() {
             </div>  */}           
             <div>
                     <h3>      
-                        ASPERSION Método mediante el cual se esparce pequeñas gotas de plaguicida <br />mediante un 
-                        equipo de presión con boquilla en forma de abanico rociando las orillas inferiores y superiores, 
+                        ASPERSION<br />
+                        Método mediante el cual se esparce pequeñas gotas de plaguicida 
+                        <br />mediante un equipo de presión con boquilla en forma de abanico rociando las orillas inferiores y superiores, 
                         marcos siguiendo el perímetro del establecimiento poniendo especial atención en rincones, grietas, hendiduras, 
                         lugar donde se anidan las plagas formando así un cordón sanitario y evitando el 
                         ingreso o propagación de las plagas no deseadas. Este método es el más efectivo y u
