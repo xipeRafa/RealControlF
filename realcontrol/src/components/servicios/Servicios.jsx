@@ -27,7 +27,7 @@ export default function Servicios() {
       productos y equipos adecuados para el Trabajo
       <br />
       siguiendo las más estrictas normas de uso y calidad.
-      <span className={boolState ? 'leerMas':'d-none'} onClick={()=>setBoolState(!boolState)}>Leer Mas..</span>
+      <p className={boolState ? 'leerMas':'d-none'} onClick={()=>setBoolState(!boolState)}>Leer Mas..</p>
     </p>
 
 
