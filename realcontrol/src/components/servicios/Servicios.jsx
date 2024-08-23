@@ -14,7 +14,7 @@ export default function Servicios() {
       
 
 
-La experiencia obtenida durante 35 años de servicio nos coloca como la solución adecuada<br />
+La experiencia obtenida durante 35 años de Servicio nos coloca como la solución adecuada<br />
  para cualquier tipo de problema de plagas, tomando siempre en cuenta su salud y la de su familia<br /> 
 nuestros técnicos son especialistas en proteger su hogar usando sólo los productos y equipos adecuados para el trabajo<br />
  siguiendo las más estrictas normas de uso y calidad.<br /><br />

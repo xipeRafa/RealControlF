@@ -13,9 +13,8 @@ export default function Servicios() {
 				
    			
     <div className='tipos'>
-        
-<p>PALOMA – además del daño corrosivo de sus excrementos pueden causar enfermedades como  la histoplasmosis, criptococosis y psitacosis</p>
 <p>RATONES - daños en cultivos y alimentos almacenados, daños en estructuras diversas y la transmisión de enfermedades al hombre y los animales domésticos</p>
+<p>PALOMA – además del daño corrosivo de sus excrementos pueden causar enfermedades como  la histoplasmosis, criptococosis y psitacosis</p>
 <p>MOSQUITO – Además de las incontables enfermedades que pueden transmitir, siempre es un alivio eliminar esta molesta y peligrosa plaga</p>
 <p>CUCARACHAS – Además de infestar hogares, causan graves estragos a la industria, especialmente la alimenticia. Este insecto contamina los alimentos, depositando hongos, bacterias, que reducen la vida útil de los productos.</p>
 <p>TERMITAS - Lo cierto es que estos pequeños insectos, son causa de muchos problemas en estructuras y lo peor de todo, es que puede tardarse mucho tiempo en averiguar a qué problemas nos enfrentamos debido a que trabajan en el interior de la madera.</p>
