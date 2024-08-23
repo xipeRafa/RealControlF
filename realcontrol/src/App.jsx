@@ -1,9 +1,9 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './css/App.css'
-import img1 from './imgs/rc1.jpg'
-import img2 from './imgs/rc3.png'
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./css/App.css";
+import img1 from "./imgs/rc1.jpg";
+import img2 from "./imgs/rc3.png";
 
 import {
   //Link,
@@ -11,75 +11,60 @@ import {
   Routes,
   Route,
   useLocation,
-} from 'react-router-dom';
+} from "react-router-dom";
 
-  
-
-
-
-
-import Footer from './components/footer/Footer'
-import Navbar from './components/navbar/Navbar'
-import Servicios from './components/servicios/Servicios'
-import Header from './components/header/Header'
-import Tipos from './components/tipos/Tipos'
-import Contacto from './components/contacto/Contacto'
-
-
+import Footer from "./components/footer/Footer";
+import Navbar from "./components/navbar/Navbar";
+import Servicios from "./components/servicios/Servicios";
+import Header from "./components/header/Header";
+import Tipos from "./components/tipos/Tipos";
+import Contacto from "./components/contacto/Contacto";
 
 
 
 function App() {
+  const location = useLocation();
+  console.log(location.pathname);
 
   return (
-    <div className='containerApp'>
+    <div className="containerApp">
+      <Navbar />
 
-    <Navbar />
-    
-
-
-
-
-<Routes>
-
+      <Routes>
         <Route path="/RealControlF/servicios" element={<Servicios />} />
         <Route path="/RealControlF/" element={<Header />} />
         <Route path="/RealControlF/tipos" element={<Tipos />} />
         <Route path="/RealControlF/contacto" element={<Contacto />} />
 
-         <Route path="*" element={ <Header />} />
-    </Routes>
+        <Route path="*" element={<Header />} />
+      </Routes>
 
-<div className='sombra'>
-  <img src={img2} /> 
-</div>
+      <div className={location.pathname === '/RealControlF/tipos' || location.pathname === '/RealControlF/contacto' ? 'd-none' : ''}>
 
+      <div className="sombra">
+        <img src={img2} />
+      </div>
 
+      <section className="tipoDePlagas">
+        Hay Muchísimos Tipos de Plagas y cada una con Diferentes Especies del
+        mismo Problema
+        <p>PERO ¡NO SE PREOCUPE! REAL CONTROL </p>
 
-      <section className='tipoDePlagas'>
-Hay muchísimos tipos de plagas y cada una con diferentes especies del mismo problema, 
-<p>PERO ¡NO SE PREOCUPE! REAL CONTROL </p>
-Cuenta con el equipo adecuado para solucionar todos ellos. Si una plaga es su problema, o desea proteger su casa 
-<br />¡REAL CONTROL ES SU MEJOR OPCIÓN!
+        Cuenta con el Equipo Adecuado para Solucionar todos ellos<br />
+        <span>Si una plaga es su Problema, o desea Proteger su Casa</span>
+        <br />
+        ¡REAL CONTROL ES SU MEJOR OPCIÓN!
       </section>
+      </div>
 
+      <div className="sombra">
+        <img src={img1} style={{ marginBottom: "20px" }} />
+      </div>
 
-  
-
-
-
-
-
-<div className='sombra'>
-<img src={img1} style={{marginBottom:'20px'}}/>
-</div>
+      
       <Footer />
-
-
-
-
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
