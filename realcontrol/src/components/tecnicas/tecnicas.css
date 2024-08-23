@@ -55,35 +55,23 @@
 
 .titulo h2{
 	font-size: 32px;
-	color: #222222;
+
 	font-weight: 500;
 	font-family: sans;
 	font-style: oblique;
 	margin-bottom: 50px;
 }
 
-@media (max-width: 1000px) {
-	.buttonsContainer{
-		flex-direction: column;
-	}
-	.buttonsContainer>button{
-		width: 100%;
-	}
-    .displayX{
-    	flex-direction: column;
-    }
-    .displayX div{
-		padding-bottom: 48px;
-	}
-   
-}
+
+
+
 
 
 
 .displayX div h3{
 	font-size: 18px;
 	font-weight: 500;
-	color: #363231;
+
 	padding: 10px;
 	letter-spacing: .4px;
 	text-align: left;
@@ -110,6 +98,26 @@
 }
 
 
+
+@media (max-width: 1000px) {
+	.buttonsContainer{
+		flex-direction: column;
+	}
+	.buttonsContainer>button{
+		width: 100%;
+	}
+    .displayX{
+    	flex-direction: column;
+    }
+    .displayX div{
+		padding-bottom: 48px;
+	}
+
+	.displayX div h3{
+		font-size: 16PX;
+	}
+   
+}
 
 
 

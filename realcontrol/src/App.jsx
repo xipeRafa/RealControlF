@@ -19,7 +19,6 @@ import {
 
 
 import Footer from './components/footer/Footer'
-import Tecnicas from './components/tecnicas/Tecnicas'
 import Navbar from './components/navbar/Navbar'
 import Servicios from './components/servicios/Servicios'
 import Header from './components/header/Header'
@@ -51,12 +50,13 @@ function App() {
          <Route path="*" element={ <Header />} />
     </Routes>
 
+<div className='sombra'>
+  <img src={img2} /> 
+</div>
 
-<img src={img2} style={{marginBottom:'20px'}}/> 
+
 
       <section className='tipoDePlagas'>
-        
-      
 Hay muchísimos tipos de plagas y cada una con diferentes especies del mismo problema, 
 <p>PERO ¡NO SE PREOCUPE! REAL CONTROL </p>
 Cuenta con el equipo adecuado para solucionar todos ellos. Si una plaga es su problema, o desea proteger su casa 
@@ -67,13 +67,12 @@ Cuenta con el equipo adecuado para solucionar todos ellos. Si una plaga es su pr
   
 
 
-<hr />
 
 
-<Tecnicas />
 
+<div className='sombra'>
 <img src={img1} style={{marginBottom:'20px'}}/>
-
+</div>
       <Footer />
 
 

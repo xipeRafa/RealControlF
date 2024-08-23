@@ -29,16 +29,16 @@
   --gray-900: #212529;
 
 
-  --bs-blue: #0d6efd;
-  --bs-morado: #6610f2;
-  --bs-morado2: #6f42c1;
-  --bs-pink: #d63384;
-  --bs-red: #dc3545;
-  --bs-orange: #fd7e14;
-  --bs-yellow: #ffc107;
-  --bs-green: #198754;
-  --bs-green2: #20c997;
-  --bs-blue2: #0dcaf0;
+  --blue: #0d6efd;
+  --morado: #6610f2;
+  --morado2: #6f42c1;
+  --pink: #d63384;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #198754;
+  --green2: #20c997;
+  --blue2: #0dcaf0;
 
 }
 
@@ -82,6 +82,8 @@ body{
   border-top: 1px solid #E1E1E1; 
   padding: 0;
 }*/
+
+
 
 hr {
     margin-top: .4rem;
