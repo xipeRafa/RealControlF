@@ -11,8 +11,9 @@ export default function Tecnicas() {
 
 
   const[displayState, setDisplayState]=useState('1')
+  const[displayState2, setDisplayState2]=useState('5')
 
-  return (
+  return (<>
     <div className='inicioContainer'>
         <div className='titulo'>
             <h4>REAL CONTROL</h4>
@@ -26,17 +27,12 @@ export default function Tecnicas() {
             <button className={displayState === '3' ? 'bg-dark' : 'bg-ligth'} onClick={()=>setDisplayState('3')}>GASIFICACION</button>
             <button className={displayState === '4' ? 'bg-dark' : 'bg-ligth'} onClick={()=>setDisplayState('4')}>APLICACIÓN DE GEL</button>
 
-
-            <button className={displayState === '4' ? 'bg-dark' : 'bg-ligth'} onClick={()=>setDisplayState('5')}>CEBO PARA RATÓN</button>
-
         </div>
 
 
 {/*//-pulverizadores - espolvoreadores -termonebulizacion*/}
         <div className={displayState !== '1' ? 'd-none' : 'displayX'}>
-           {/* <div>
-              <img src={img4} />
-            </div>  */}           
+                  
             <div>
                     <h3>      
                         ASPERSION<br />
@@ -54,9 +50,6 @@ export default function Tecnicas() {
 
 
         <div className={displayState !== '2' ? 'd-none' : 'displayX'}>
-        {/*<div>
-              <img src={img3} />
-            </div> */} 
             
             <div>
                    
@@ -71,10 +64,7 @@ export default function Tecnicas() {
 
 
         <div className={displayState !== '3' ? 'd-none' : 'displayX'}>
-
-            {/* <div>
-                <img src={img1}/>
-            </div>  */}           
+         
             <div>
                   
                   <h3>
@@ -90,11 +80,7 @@ export default function Tecnicas() {
         </div>
 
 
-        <div className={displayState !== '4' ? 'd-none' : 'displayX'}>
-
-          {/*   <div>
-                <img src={img2}/>
-            </div>  */}           
+        <div className={displayState !== '4' ? 'd-none' : 'displayX'}>         
             <div>
                 
                   <h3>
@@ -109,19 +95,92 @@ export default function Tecnicas() {
         </div>
 
 
-         <div className={displayState !== '5' ? 'd-none' : 'displayX'}>
 
-          {/*   <div>
-                <img src={img2}/>
-            </div>  */}           
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <div className='inicioContainer'>
+
+      {/*  <div className='titulo'>
+            <h4>REAL CONTROL</h4>
+            <h2>TECNICAS DE FUMIGACIÓN</h2>
+        </div>*/}
+
+
+        <div className='buttonsContainer'>
+            <button className={displayState2 === '5' ? 'bg-dark' : 'bg-ligth'} onClick={()=>setDisplayState2('5')}>CEBO PARA RATÓN</button>
+            <button className={displayState2 === '6' ? 'bg-dark' : 'bg-ligth'} onClick={()=>setDisplayState2('6')}>pulverizadores</button>
+            <button className={displayState2 === '7' ? 'bg-dark' : 'bg-ligth'} onClick={()=>setDisplayState2('7')}>espolvoreadores</button>
+            <button className={displayState2 === '8' ? 'bg-dark' : 'bg-ligth'} onClick={()=>setDisplayState2('8')}>termonebulizacion</button>
+
+        </div>
+
+
+        <div className={displayState2 !== '5' ? 'd-none' : 'displayX'}>
+                  
             <div>
-                
-                  <h3>
-                      
+                    <h3>      
+                               
                       CEBO PARA RATÓN<br /> Las ratas y ratones normalmente prefieren lugares protegidos y rinconcitos oscuros. 
                       Y muchas veces estos locales son residencias o zonas de comercio y trabajo, dónde definitivamente 
                       estos roedores no son bienvenidos. Pero ahora eliminar ratas y ratones es muy fácil y efectivo
                        con cebo para ratón, rodenticida para roedores.
+                    </h3>
+            </div>                    
+        </div>
+
+
+
+
+        <div className={displayState2 !== '6' ? 'd-none' : 'displayX'}>
+            
+            <div>
+                   
+                  <h3>
+                        pulverizadores
+                  </h3>
+                  
+            </div> 
+        </div>
+
+
+        <div className={displayState2 !== '7' ? 'd-none' : 'displayX'}>
+         
+            <div>
+                  
+                  <h3>
+                    espolvoreadores
+                  </h3>
+                 
+
+            </div> 
+        </div>
+
+
+        <div className={displayState2 !== '8' ? 'd-none' : 'displayX'}>         
+            <div>
+                
+                  <h3>
+                      termonebulizacion
                   </h3>
                  
 
@@ -129,7 +188,9 @@ export default function Tecnicas() {
         </div>
 
     </div>
-  )
+  </>)
+
+  
 }
 
   

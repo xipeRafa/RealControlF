@@ -43,3 +43,7 @@
 .d-nonde{
   display: none;
 }
+
+button{
+  text-transform: uppercase!important;
+}
