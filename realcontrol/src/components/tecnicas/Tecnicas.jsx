@@ -25,9 +25,14 @@ export default function Tecnicas() {
             <button className={displayState === '2' ? 'bg-dark' : 'bg-ligth'} onClick={()=>setDisplayState('2')}>NEBULIZACION</button>
             <button className={displayState === '3' ? 'bg-dark' : 'bg-ligth'} onClick={()=>setDisplayState('3')}>GASIFICACION</button>
             <button className={displayState === '4' ? 'bg-dark' : 'bg-ligth'} onClick={()=>setDisplayState('4')}>APLICACIÓN DE GEL</button>
+
+
+            <button className={displayState === '4' ? 'bg-dark' : 'bg-ligth'} onClick={()=>setDisplayState('5')}>CEBO PARA RATÓN</button>
+
         </div>
 
 
+{/*//-pulverizadores - espolvoreadores -termonebulizacion*/}
         <div className={displayState !== '1' ? 'd-none' : 'displayX'}>
            {/* <div>
               <img src={img4} />
@@ -74,7 +79,7 @@ export default function Tecnicas() {
                   
                   <h3>
                     GASIFICACION PARA TERMITAS Y OTRAS INSECTOS<br /> Técnica por el cual se realiza un 
-                    sellamiento total del área infestada de plaga para que no pueda salir ninguna partícula del veneno, 
+                    sellamiento total del área infestada de plaga para que no pueda salir ninguna partícula de gas toxico, 
                     y se introduce una pastilla que contienen un tipo de gas venenoso causando envenenamiento o asfixia en la plaga, 
                     lo usamos comúnmente cuando existe un problema de termita o cualquier tipo de insecto que no se 
                     puede tratar con métodos antes mencionados.
@@ -93,11 +98,30 @@ export default function Tecnicas() {
             <div>
                 
                   <h3>
-                      
                       APLICACIÓN DE GEL<br /> Se lleva a cabo en lugares localizados donde prolifera la plaga principalmente cucaracha en lugares que 
                       tenemos menor acceso a la limpieza como lo son: cocinas, interior de tubos, grietas esquinas, hendiduras entrepaños, alacenas, 
                       cajones hornillas, y todo tipo de equipos eléctricos, etc. 
                       Esta técnica es muy utilizada en la Industria alimenticia en donde se hace énfasis en la inocuidad alimentaria.
+                  </h3>
+                 
+
+            </div> 
+        </div>
+
+
+         <div className={displayState !== '5' ? 'd-none' : 'displayX'}>
+
+          {/*   <div>
+                <img src={img2}/>
+            </div>  */}           
+            <div>
+                
+                  <h3>
+                      
+                      CEBO PARA RATÓN<br /> Las ratas y ratones normalmente prefieren lugares protegidos y rinconcitos oscuros. 
+                      Y muchas veces estos locales son residencias o zonas de comercio y trabajo, dónde definitivamente 
+                      estos roedores no son bienvenidos. Pero ahora eliminar ratas y ratones es muy fácil y efectivo
+                       con cebo para ratón, rodenticida para roedores.
                   </h3>
                  
 

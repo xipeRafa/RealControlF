@@ -30,10 +30,17 @@ export default function Navbar() {
 
 
                 <NavLink to="/RealControlF" onClick={()=>window.scrollTo(0,0)}> Inicio </NavLink>
+
                 <NavLink to="/RealControlF/servicios" onClick={()=>window.scrollTo(0,0)}> Servicios </NavLink>
 
                 <NavLink to="/RealControlF/tipos" onClick={()=>window.scrollTo(0,0)}> Tipos de Plagas </NavLink>
+
+                <NavLink to="/RealControlF/licencias" onClick={()=>window.scrollTo(0,0)}> Licencias </NavLink>
+
+                <NavLink to="/RealControlF/clientes" onClick={()=>window.scrollTo(0,0)}> Clientes </NavLink>
+
                 <NavLink to="/RealControlF/contacto" onClick={()=>window.scrollTo(0,0)}> Contacto </NavLink>
+
                 {/*<NavLink to="/AhilloPage/gobierno">    Gobierno </NavLink>
 
                 <NavLink to="/AhilloPage/PGP"> PGP 2031-2033 </NavLink>
