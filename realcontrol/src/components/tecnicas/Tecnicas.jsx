@@ -171,7 +171,6 @@ export default function Tecnicas() {
             <div>
                   
                   <h3>
-                    espolvoreadores:
                     ESPOLVOREADORES<br />
 Se utiliza para aplicación de polvos principalmente en grietas, hendiduras y en lugares donde la aplicación de líquidos no es 
 conveniente, como por ejemplo: Un tablero eléctrico. Es importante considerar que no todos los plaguicidas que vienen en polvo 
