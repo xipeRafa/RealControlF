@@ -24,6 +24,20 @@ export default function Servicios() {
 <p><span>PULGAS</span> - Al chupar la sangre, las pulgas hacen lo mismo que nos hacen los mosquitos a nosotros, y es inocular su saliva en la herida que crean para que así la sangre no se coagule y de esta manera transmitir enfermedades</p>
 <p><span>ARAÑAS</span> – Hay gran variedad de arañas que pueden dañar gravemente nuestra salud o incluso provocar la muerte. Aunque no todas las arañas sean peligrosas para el humano, no dejan de ser una molestia las telarañas en cada esquina.</p>
       </div>
+
+
+       <section className="tipoDePlagas">
+
+       Hay Muchos Tipos de Plagas y cada una con Diferentes Especies del Mismo Problema
+        <p>PERO ¡NO SE PREOCUPE!</p>
+     
+        <p> REAL CONTROL </p>
+
+        Cuenta con el Equipo Adecuado para Solucionar todos tipo de Plaga<br />
+        <span>Si una plaga es su Problema, y desea Proteger su Casa</span>
+        <br />
+        ¡REAL CONTROL ES SU MEJOR OPCIÓN!
+      </section>
 			</>
 		)
 }

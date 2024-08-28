@@ -78,20 +78,12 @@ export default function Servicios() {
     </p>}
 
 <hr />
-    <Tecnicas />
-     <div className="sombra">
+
+      <Tecnicas />
+
+      <div className="sombra">
         <img src={img2} />
       </div>
-
-      <section className="tipoDePlagas">
-     
-        <p> REAL CONTROL </p>
-
-        Cuenta con el Equipo Adecuado para Solucionar todos tipo de Plaga<br />
-        <span>Si una plaga es su Problema, y desea Proteger su Casa</span>
-        <br />
-        ¡REAL CONTROL ES SU MEJOR OPCIÓN!
-      </section>
 
   </>);
 }

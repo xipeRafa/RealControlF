@@ -1,6 +1,6 @@
 import './header.css'
 import img2 from "../../imgs/rc3.png";
-
+import Banner from '../banner/Banner'
 
 export default function Header() {
 
@@ -21,12 +21,12 @@ export default function Header() {
         <img src={img2} />
       </div>
 
-      <section className="tipoDePlagas">
-        Hay Muchísimos Tipos de Plagas y cada una con Diferentes Especies del Mismo Problema
-        <p>PERO ¡NO SE PREOCUPE!</p>
 
-        ¡REAL CONTROL ES SU MEJOR OPCIÓN!
-      </section>
+
+     
+
+            <Banner />
+
 
       </header>
       </>)

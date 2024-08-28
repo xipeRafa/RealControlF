@@ -16,21 +16,7 @@
   border: 2px solid blue;
 }*/
 
-.tipoDePlagas{
-  padding: 20px;
-  text-align: center;
-  margin: 20px 0;
-  font-size: 20px;
-  border: 2px solid var(--logoColor);
-  color: var(--gray-700);
-}
 
-
-@media(max-width:900px){
-  .tipoDePlagas{
-    font-size: 16px;
-  }
-}
 
 
 .sombra{
