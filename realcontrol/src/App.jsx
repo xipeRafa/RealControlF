@@ -1,11 +1,10 @@
-import { useState } from "react";
 
 
 import "./css/App.css";
 import img1 from "./imgs/rc1.jpg";
 
 
-import { Routes, Route, useLocation } from "react-router-dom";
+import { Routes, Route,  } from "react-router-dom";
 
 import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
@@ -19,7 +18,6 @@ import Contacto from "./components/contacto/Contacto";
 
 
 function App() {
-  const location = useLocation();
 
   return (
     <div className="containerApp">

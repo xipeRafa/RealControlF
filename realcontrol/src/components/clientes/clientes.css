@@ -1,0 +1,44 @@
+.clientes>img{
+	margin: 100px 0;
+}
+
+
+
+
+
+.clientesBanner{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 100px;
+}
+
+.clientesBanner div{
+	background-color:var(--logoColor);
+	color: white;
+	font-size: 20px;
+	width: 25%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	padding: 20px 0 40px 0;
+}
+
+.clientesBanner span{
+	font-size: 100px;
+}
+
+
+
+
+@media(max-width:1000px){
+	.clientes>div{
+		font-size: 20px;
+	}
+	.clientesBanner{
+		flex-direction: column;
+		width: 100%;
+	}
+	.clientesBanner div{
+		width: 100%;
+	}
+}
