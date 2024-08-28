@@ -7,7 +7,7 @@
 }
 
 .clientesBanner div{
-	background-color:var(--logoColort);
+	background-color:var(--logoColorT);
 	color: var(--gray-200);
 	font-size: 20px;
 	font-weight:700;
