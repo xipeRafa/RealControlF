@@ -10,15 +10,18 @@ export default function Header() {
       
 
         <div className='clientesBanner'>
-            <div><span>★</span>35 Años de Experincia</div>
-            <div><span>★</span>+50,000 Residencias</div>
-            <div><span>★</span>+10,000 Comercios</div>
-            <div><span>★</span>LLamanos 662 1902558</div>
+            <div><span>🏆</span>35 Años De Experincia</div>
+            <div><span>🏘️</span>+50 000 Residencias</div>
+            <div><span>🏬</span>+10 000 Comercios</div>
+            <div><span>🏭</span>+20 000 Industrial</div>
         </div>
 
 
     </div>
   );
-}
 
+
+
+}
+//🏡 🏠 ⭐
 

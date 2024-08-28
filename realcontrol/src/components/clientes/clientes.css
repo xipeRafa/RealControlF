@@ -1,21 +1,22 @@
 .clientes>img{
-	margin: 100px 0;
+	margin-top: 50px;
+	margin-bottom: 100px;
 }
-
-
-
 
 
 .clientesBanner{
 	display: flex;
 	flex-direction: row;
 	margin-bottom: 100px;
+	border: 2px solid red;
 }
 
 .clientesBanner div{
-	background-color:var(--logoColor);
-	color: white;
+	background-color:var(--logoColort);
+	color: var(--gray-300);
 	font-size: 20px;
+	font-weight:700;
+	font-style: italic;
 	width: 25%;
 	text-align: center;
 	display: flex;

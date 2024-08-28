@@ -1,7 +1,7 @@
 .licencias{
-	font-size: 40px;
+	font-size: 42px;
 	text-align: center;
-	margin: 300px 0;
+	margin: 100px 0;
 }
 
 
@@ -12,5 +12,5 @@
 	padding: 20px;
 	font-size: 40px;
 	background-color: var(--logoColor);
-	color: var(--gray-100);
+	color: var(--gray-300);
 }
