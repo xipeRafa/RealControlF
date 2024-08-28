@@ -128,9 +128,9 @@ export default function Tecnicas() {
 
         <div className='buttonsContainer'>
             <button className={displayState2 === '5' ? 'bg-dark' : 'bg-ligth'} onClick={()=>setDisplayState2('5')}>CEBO PARA RATÓN</button>
-            <button className={displayState2 === '6' ? 'bg-dark' : 'bg-ligth'} onClick={()=>setDisplayState2('6')}>pulverizadores</button>
-            <button className={displayState2 === '7' ? 'bg-dark' : 'bg-ligth'} onClick={()=>setDisplayState2('7')}>espolvoreadores</button>
-            <button className={displayState2 === '8' ? 'bg-dark' : 'bg-ligth'} onClick={()=>setDisplayState2('8')}>termonebulizacion</button>
+            <button className={displayState2 === '6' ? 'bg-dark' : 'bg-ligth'} onClick={()=>setDisplayState2('6')}>PULVERIZADORES</button>
+            <button className={displayState2 === '7' ? 'bg-dark' : 'bg-ligth'} onClick={()=>setDisplayState2('7')}>ESPOLVOREADORES</button>
+            <button className={displayState2 === '8' ? 'bg-dark' : 'bg-ligth'} onClick={()=>setDisplayState2('8')}>TERMONEBULIZACION</button>
 
         </div>
 
@@ -156,7 +156,10 @@ export default function Tecnicas() {
             <div>
                    
                   <h3>
-                        pulverizadores
+                        PULVERIZADORES<br />
+                        la pulverizadora esparce el líquido de manera más equitativa y liviana. La nube que genera 
+                        la pulverizadora es mucho más envolvente alrededor de aquellos que se quiera eliminar. 
+                        En cuanto a la fumigadora, estas son más usadas para los campos y cultivos agrícolas.
                   </h3>
                   
             </div> 
@@ -168,7 +171,12 @@ export default function Tecnicas() {
             <div>
                   
                   <h3>
-                    espolvoreadores
+                    espolvoreadores:
+                    ESPOLVOREADORES<br />
+Se utiliza para aplicación de polvos principalmente en grietas, hendiduras y en lugares donde la aplicación de líquidos no es 
+conveniente, como por ejemplo: Un tablero eléctrico. Es importante considerar que no todos los plaguicidas que vienen en polvo 
+se pueden aplicar con este método, 
+solo los que en su etiqueta venga sugerido. Va dirigido principalmente a insectos rastreros, termitas, hormigas entre otros.
                   </h3>
                  
 
@@ -180,7 +188,16 @@ export default function Tecnicas() {
             <div>
                 
                   <h3>
-                      termonebulizacion
+                    TERMONEBULIZACIÓN<br />
+Lo que hace la termonebulización es generar unas gotas ultra finas, usando energía termo-neumática. 
+La mezcla líquida se vaporiza en el equipo de aplicación (Termonebulizadora) y se convierte en un aerosol fino 
+que se condensa al entrar en contacto con el aire exterior, el cual se encuentra a una menor temperatura creando una niebla densa y  visible. 
+
+
+tiene la particularidad de poder mantenerse en el aire y trasladarse largas distancias sin perder su efectividad, 
+alcanzando cualquier rincón dentro de la instalación. 
+ Este método es recomendado para tratar espacios muy grandes y de una gran altura, 
+
                   </h3>
                  
 
