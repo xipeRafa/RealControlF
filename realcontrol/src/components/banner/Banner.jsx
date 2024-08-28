@@ -1,5 +1,5 @@
 import "./banner.css";
-
+import trofeo from "../../imgs/trofeo.png";
 
 export default function Banner() {
 
@@ -8,7 +8,7 @@ export default function Banner() {
     
 
         <div className='clientesBanner'>
-            <div><span>🏆</span>35 Años De Experincia</div>
+            <div><img src={trofeo} />35 Años De Experincia</div>
             <div><span>🏘️</span>+50 000 Residencias</div>
             <div><span>🏬</span>+10 000 Comercios</div>
             <div><span>🏭</span>+20 000 Industrial</div>
