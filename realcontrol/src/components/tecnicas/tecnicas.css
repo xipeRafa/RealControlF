@@ -30,13 +30,15 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+/*	background-color: rgba(250,250,250,.5);*/
+/*	margin-bottom: 40px;*/
 }
 
 
 
 
 .displayX div{
-	width: 100%;
+	width: 90%;
 	margin: auto;
 	padding-top: 40px;
 }
@@ -111,6 +113,7 @@
     }
     .displayX div{
 		padding-bottom: 48px;
+		width: 100%;
 	}
 
 	.displayX div h3{

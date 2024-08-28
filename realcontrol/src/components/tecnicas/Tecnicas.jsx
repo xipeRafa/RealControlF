@@ -96,8 +96,8 @@ export default function Tecnicas() {
 
 
 
-    </div>
 
+    </div>
 
 
 
