@@ -1,6 +1,6 @@
 import "./servicios.css";
 import { useState } from "react";
-import Tecnicas from '../tecnicas/Tecnicas'
+// import Tecnicas from '../tecnicas/Tecnicas'
 import img2 from "../../imgs/rc3.png";
 
 export default function Servicios() {
@@ -79,7 +79,7 @@ export default function Servicios() {
 
 <hr />
 
-      <Tecnicas />
+      {/*<Tecnicas />*/}
 
       <div className="sombra">
         <img src={img2} />

@@ -33,6 +33,8 @@ export default function Navbar() {
 
                 <NavLink to="/RealControlF/servicios" onClick={()=>window.scrollTo(0,0)}> Servicios </NavLink>
 
+                <NavLink to="/RealControlF/tecnicas" onClick={()=>window.scrollTo(0,0)}> Tecnicas </NavLink>
+
                 <NavLink to="/RealControlF/tipos" onClick={()=>window.scrollTo(0,0)}> Tipos de Plagas </NavLink>
 
                 <NavLink to="/RealControlF/licencias" onClick={()=>window.scrollTo(0,0)}> Licencias </NavLink>
