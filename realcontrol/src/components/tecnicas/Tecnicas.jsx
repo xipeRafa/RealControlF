@@ -195,7 +195,7 @@ que se condensa al entrar en contacto con el aire exterior, el cual se encuentra
 
 tiene la particularidad de poder mantenerse en el aire y trasladarse largas distancias sin perder su efectividad, 
 alcanzando cualquier rincón dentro de la instalación. 
- Este método es recomendado para tratar espacios muy grandes y de una gran altura, 
+ Este método es recomendado para tratar espacios muy grandes. 
 
                   </h3>
                  
