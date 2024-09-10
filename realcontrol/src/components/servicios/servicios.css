@@ -9,11 +9,7 @@
   color: var(--gray-700)
 }
 
-@media(max-width:900px){
-  .servicios1{
-    font-size: 19px;
-  }
-}
+
 
 
 .leerMas{
@@ -29,3 +25,41 @@
 .d-node{
   display:none;
 }
+
+
+
+.g4{
+  width: 50%;
+}
+
+.gallery{
+  text-align: center;
+  display: flex;
+  margin: 50px 0;
+  border: 1px solid red;
+}
+
+.gallery>img{
+  width: 60%;
+  height: 500px;
+}
+
+.gallery>button{
+  margin: auto;
+  padding: 10px;
+  border: none;
+}
+
+
+
+
+@media(max-width:900px){
+  .servicios1{
+    font-size: 19px;
+  }
+  .gallery>img{
+      width: 80%;
+      height: 300px;
+  }
+}
+

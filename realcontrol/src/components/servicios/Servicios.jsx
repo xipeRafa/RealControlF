@@ -3,15 +3,46 @@ import { useState } from "react";
 // import Tecnicas from '../tecnicas/Tecnicas'
 import img2 from "../../imgs/rc3.png";
 
+
+
+import g1 from "../../imgs/gallery/1.png";
+import g2 from "../../imgs/gallery/2.png";
+import g3 from "../../imgs/gallery/3.png";
+import g4 from "../../imgs/gallery/4.png";
+
+import g5 from "../../imgs/gallery/5.png";
+import g6 from "../../imgs/gallery/6.png";
+import g7 from "../../imgs/gallery/7.png";
+import g8 from "../../imgs/gallery/8.png";
+
+
+import g9 from "../../imgs/gallery/9.png";
+import g10 from "../../imgs/gallery/10.png";
+import g11 from "../../imgs/gallery/11.png";
+import g12 from "../../imgs/gallery/12.png";
+
+import g13 from "../../imgs/gallery/13.png";
+import g14 from "../../imgs/gallery/14.png";
+import g15 from "../../imgs/gallery/15.png";
+import g16 from "../../imgs/gallery/16.png";
+
+
+
+
+
+
+
+
+
 export default function Servicios() {
 
 
   const[boolState, setBoolState]=useState(true)
 
 
+  const[galleryState, setGalleryState]=useState(1)
 
-
-
+console.log(galleryState)
 
   return (<>
 
@@ -80,6 +111,47 @@ export default function Servicios() {
 <hr />
 
       {/*<Tecnicas />*/}
+
+ <img className='g4' src={g3} />
+  <img className='g4' src={g4} />
+
+
+      <div className="gallery">
+          <button onClick={()=>{if(galleryState>1){setGalleryState(galleryState - 1)}}}>◀ </button>
+
+
+          <img className={galleryState !== 1 ? 'd-none' : ''} src={g1} />
+
+
+          <img className={galleryState !== 2 ? 'd-none' : ''} src={g5} />
+          <img className={galleryState !== 3 ? 'd-none' : ''} src={g6} />
+          <img className={galleryState !== 4 ? 'd-none' : ''} src={g7} />
+          <img className={galleryState !== 5 ? 'd-none' : ''} src={g8} />
+
+          <img className={galleryState !== 6 ? 'd-none' : ''} src={g9} />
+          <img className={galleryState !== 7 ? 'd-none' : ''} src={g10} />
+          <img className={galleryState !== 8 ? 'd-none' : ''} src={g11} />
+          <img className={galleryState !== 9 ? 'd-none' : ''} src={g12} />
+
+          <img className={galleryState !== 10 ? 'd-none' : ''} src={g13} />
+          <img className={galleryState !== 11 ? 'd-none' : ''} src={g14} />
+          <img className={galleryState !== 12 ? 'd-none' : ''} src={g15} />
+          <img className={galleryState !== 13 ? 'd-none' : ''} src={g16} />
+
+
+
+             <button onClick={()=>{if(galleryState<13){
+                                               setGalleryState(galleryState + 1)
+                                      }else{
+                                
+                                         setGalleryState(1)
+                                      }
+
+                                    }}> ▶ </button>
+      </div>
+
+
+      
 
       <div className="sombra">
         <img src={img2} />
