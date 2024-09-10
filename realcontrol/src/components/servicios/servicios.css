@@ -47,6 +47,8 @@
   margin: auto;
   padding: 10px;
   border: none;
+  padding: 250px 5%;
+  border-radius: 0;
 }
 
 
@@ -59,6 +61,9 @@
   .gallery>img{
       width: 80%;
       height: 260px;
+  }
+  .gallery>button{
+     padding: 130px 2.5%;
   }
 }
 
