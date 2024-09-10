@@ -151,6 +151,24 @@ console.log(galleryState)
       </div>
 
 
+
+      <div className='barras'>
+        <div className={galleryState !== 1 ? 'claro' : 'oscuro'}></div>
+        <div className={galleryState !== 2 ? 'claro' : 'oscuro'}></div>
+        <div className={galleryState !== 3 ? 'claro' : 'oscuro'}></div>
+        <div className={galleryState !== 4 ? 'claro' : 'oscuro'}></div>
+        <div className={galleryState !== 5 ? 'claro' : 'oscuro'}></div>
+        <div className={galleryState !== 6 ? 'claro' : 'oscuro'}></div>
+        <div className={galleryState !== 7 ? 'claro' : 'oscuro'}></div>
+        <div className={galleryState !== 8 ? 'claro' : 'oscuro'}></div>
+        <div className={galleryState !== 9 ? 'claro' : 'oscuro'}></div>
+        <div className={galleryState !== 10 ? 'claro' : 'oscuro'}></div>
+        <div className={galleryState !== 11 ? 'claro' : 'oscuro'}></div>
+        <div className={galleryState !== 12 ? 'claro' : 'oscuro'}></div>
+        <div className={galleryState !== 13 ? 'claro' : 'oscuro'}></div>
+      </div>
+
+
       
 
       <div className="sombra">
