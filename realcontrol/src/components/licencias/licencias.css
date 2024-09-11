@@ -14,3 +14,88 @@
 	background-color: var(--logoColor);
 	color: var(--gray-200);
 }
+
+
+.iconos{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 60px;
+	background-color: white;
+}
+
+.iconos>div>img{
+	width: 200px;
+}
+
+
+
+.iconos>div{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+
+.iconos>div>p{
+	font-size: 16px;
+	margin-top: auto;
+	font-weight: bold;
+}
+
+
+
+@media(max-width:1000px){
+	.iconos{
+		flex-direction: column;
+	}
+	.iconos>div>p{
+		margin-top: 10px;
+	}
+}
+
+
+
+
+
+
+
+.iconos2{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 60px;
+	background-color: white;
+}
+
+.iconos2>div>img{
+	width: 200px;
+}
+
+
+
+.iconos2>div{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+
+.iconos2>div>p{
+	font-size: 16px;
+	margin-top: auto;
+	font-weight: bold;
+}
+
+
+
+@media(max-width:1000px){
+	.iconos2{
+		flex-direction: column;
+	}
+	.iconos2>div>p{
+		margin-top: 10px;
+	}
+}
