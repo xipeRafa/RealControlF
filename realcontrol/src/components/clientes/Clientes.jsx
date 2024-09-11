@@ -58,7 +58,7 @@ export default function Header() {
             <div><img src={c14} /></div>
             <div><img src={c12} /></div>
             <div><img src={c13} /></div>
-            <div><img src={c11} /></div>
+            <div><img src={c11} alt='.'/></div>
             <div><img src={c9} /></div>
 
             <div><img src={c15} /></div>
