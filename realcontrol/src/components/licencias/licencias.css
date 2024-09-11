@@ -11,8 +11,8 @@
 	width: 100%;
 	padding: 20px;
 	font-size: 40px;
-	background-color: var(--logoColor);
-	color: var(--gray-200);
+	background-color: var(--logoColorT);
+	color: var(--gray-400);
 }
 
 
