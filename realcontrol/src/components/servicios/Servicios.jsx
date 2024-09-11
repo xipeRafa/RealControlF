@@ -12,7 +12,7 @@ import g4 from "../../imgs/gallery/4.png";
 
 import g5 from "../../imgs/gallery/5.png";
 import g6 from "../../imgs/gallery/6.png";
-import g7 from "../../imgs/gallery/7.png";
+
 import g8 from "../../imgs/gallery/8.png";
 
 
@@ -125,22 +125,22 @@ console.log(galleryState)
 
           <img className={galleryState !== 2 ? 'd-none' : ''} src={g5} />
           <img className={galleryState !== 3 ? 'd-none' : ''} src={g6} />
-          <img className={galleryState !== 4 ? 'd-none' : ''} src={g7} />
-          <img className={galleryState !== 5 ? 'd-none' : ''} src={g8} />
 
-          <img className={galleryState !== 6 ? 'd-none' : ''} src={g9} />
-          <img className={galleryState !== 7 ? 'd-none' : ''} src={g10} />
-          <img className={galleryState !== 8 ? 'd-none' : ''} src={g11} />
-          <img className={galleryState !== 9 ? 'd-none' : ''} src={g12} />
+          <img className={galleryState !== 4 ? 'd-none' : ''} src={g8} />
 
-          <img className={galleryState !== 10 ? 'd-none' : ''} src={g13} />
-          <img className={galleryState !== 11 ? 'd-none' : ''} src={g14} />
-          <img className={galleryState !== 12 ? 'd-none' : ''} src={g15} />
-          <img className={galleryState !== 13 ? 'd-none' : ''} src={g16} />
+          <img className={galleryState !== 5 ? 'd-none' : ''} src={g9} />
+          <img className={galleryState !== 6 ? 'd-none' : ''} src={g10} />
+          <img className={galleryState !== 7 ? 'd-none' : ''} src={g11} />
+          <img className={galleryState !== 8 ? 'd-none' : ''} src={g12} />
+
+          <img className={galleryState !== 9 ? 'd-none' : ''} src={g13} />
+          <img className={galleryState !== 10 ? 'd-none' : ''} src={g14} />
+          <img className={galleryState !== 11 ? 'd-none' : ''} src={g15} />
+          <img className={galleryState !== 12 ? 'd-none' : ''} src={g16} />
 
 
 
-             <button onClick={()=>{if(galleryState<13){
+             <button onClick={()=>{if(galleryState<12){
                                                setGalleryState(galleryState + 1)
                                       }else{
                                 
@@ -165,7 +165,6 @@ console.log(galleryState)
         <div className={galleryState !== 10 ? 'claro' : 'oscuro'}></div>
         <div className={galleryState !== 11 ? 'claro' : 'oscuro'}></div>
         <div className={galleryState !== 12 ? 'claro' : 'oscuro'}></div>
-        <div className={galleryState !== 13 ? 'claro' : 'oscuro'}></div>
       </div>
 
 
