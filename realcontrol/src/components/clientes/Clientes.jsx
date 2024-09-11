@@ -46,28 +46,25 @@ export default function Header() {
             <div><img src={c3} /></div>
             <div><img src={c17} /></div>
             <div><img src={c1} /></div>
-
             <div><img src={c4} /></div>
             <div><img src={c18} /></div>
-            <div><img src={c6} /></div>
 
+            <div><img src={c6} /></div>
             <div><img src={c7} /></div>
             <div><img src={c19} /></div>
-            <div><img src={c9} /></div>
-
+            <div><img src={c2} /></div>
             <div><img src={c10} /></div>
+
             <div><img src={c11} /></div>
             <div><img src={c12} /></div>
-
             <div><img src={c13} /></div>
             <div><img src={c14} /></div>
+            <div><img src={c9} /></div>
+
             <div><img src={c15} /></div>
-
             <div><img src={c20} /></div>
-            <div><img src={c2} /></div>
-            <div><img src={c5} /></div>
-
             <div><img src={c8} /></div>
+            <div><img src={c5} /></div>
             <div><img src={c16} /></div>
         </div>
 
