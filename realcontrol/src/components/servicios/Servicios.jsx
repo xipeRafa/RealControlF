@@ -48,16 +48,12 @@ console.log(galleryState)
 
   {boolState ?
     <p className="servicios1">
-      La experiencia obtenida durante 35 años de Servicio nos coloca como la
-      solución adecuada
+      La Experiencia Obtenida durante 35 años de Servicio nos coloca como la
+      Solución Adecuada
       <br />
-      para cualquier tipo de problema de plagas, tomando siempre en cuenta su
-      salud y la de su familia
-      <br />
-      nuestros técnicos son especialistas en proteger su hogar usando
-      productos y equipos adecuados para el Trabajo
-      <br />
-      siguiendo las más estrictas normas de uso y calidad.
+      Para Cualquier Tipo de Problema de Plagas, Tomando Siempre en Cuenta su
+      Salud y la de su Familia
+  
       <p className={boolState ? 'leerMas':'d-none'} onClick={()=>setBoolState(!boolState)}>Leer Mas..</p>
     </p>
 
@@ -70,13 +66,13 @@ console.log(galleryState)
 
 
      <p className="servicios1">
-      La experiencia obtenida durante 35 años de Servicio nos coloca como la
-      solución adecuada
+      La Experiencia Obtenida Durante 35 años de Servicio nos Coloca como la
+      Solución Sdecuada
       <br />
-      para cualquier tipo de problema de plagas, tomando siempre en cuenta su
-      salud y la de su familia
+      Para Cualquier Tipo de Problema de Plagas, Tomando Siempre en Cuenta su
+      Salud y la de su Familia
       <br />
-      nuestros técnicos son especialistas en proteger su hogar usando sólo los
+      Nuestros técnicos son especialistas en proteger su hogar usando sólo los
       productos y equipos adecuados para el Trabajo
       <br />
       siguiendo las más estrictas normas de uso y calidad. 
@@ -105,7 +101,7 @@ console.log(galleryState)
       <br />
       CONTAMOS CON EQUIPOS ESPECIALIZADOS Y TECNICOS ESPECIALISTAS <br />{" "}
       CERTIFICADOS PARA CUMPLIR CON EL SERVICIO ADECUADAMENTE.
-      <p className={!boolState ? 'leerMas':'d-none'} onClick={()=>setBoolState(!boolState)}>Leer Menos..</p>
+      <p className={!boolState ? 'leerMas':'d-none'} onClick={()=>{setBoolState(!boolState), window.scrollTo(0,0)}}>Leer Menos..</p>
     </p>}
 
 <hr />
