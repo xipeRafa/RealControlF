@@ -70,6 +70,7 @@
 	margin-bottom: 60px;
 	background-color: white;
 	box-sizing: content-box;
+	align-items: center;
 }
 
 .iconos2>div>img{
@@ -83,7 +84,8 @@
 	margin: 20px 0;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+
+
 }
 
 
