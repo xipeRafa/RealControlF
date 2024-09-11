@@ -3,3 +3,37 @@
 	margin-bottom: 60px;
 }
 
+
+
+.clientesContainer{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 60px;
+	background-color: white;
+	flex-wrap: wrap;
+}
+
+.clientesContainer>div>img{
+	width: 260px;
+}
+
+
+
+.clientesContainer>div{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+
+
+@media(max-width:1000px){
+	.clientesContainer{
+		flex-direction: column;
+	}
+	.iconos>div{
+		margin: 40px;
+	}
+}
