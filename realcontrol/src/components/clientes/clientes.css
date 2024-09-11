@@ -20,7 +20,7 @@
 
 
 .clientesContainer>div{
-	margin-top: 20px;
+	margin: 26px 0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
