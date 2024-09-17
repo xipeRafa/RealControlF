@@ -112,11 +112,27 @@ console.log(galleryState)
   <img className='g4' src={g4} />
 
 
+       <div className={galleryState !== 1 ? 'd-none' : 'servicioLabel'}>Servicio Contra Ratones</div>
+           <div className={galleryState !== 2 ? 'd-none' : 'servicioLabel'}>Servicio Contra Insectos</div>
+            <div className={galleryState !== 3 ? 'd-none' : 'servicioLabel'}>Servicio Contra Termitas</div>
+             <div className={galleryState !== 4 ? 'd-none' : 'servicioLabel'}>Servicio Contra Viudas Negras</div>
+              <div className={galleryState !== 5 ? 'd-none' : 'servicioLabel'}>Servicio Contra Ruedores</div>
+               <div className={galleryState !== 6 ? 'd-none' : 'servicioLabel'}>Servicio Contra Abejas</div>
+                <div className={galleryState !== 7 ? 'd-none' : 'servicioLabel'}>Servicio Contra Alacranes</div>
+                 <div className={galleryState !== 8 ? 'd-none' : 'servicioLabel'}>Servicio Contra Termitas</div>
+                  <div className={galleryState !== 9 ? 'd-none' : 'servicioLabel'}>Servicio Contra Arañas</div>
+                   <div className={galleryState !== 10 ? 'd-none' : 'servicioLabel'}>Servicio Contra Plagas</div>
+                    <div className={galleryState !== 11 ? 'd-none' : 'servicioLabel'}>Servicio Contra Termitas</div>
+                     <div className={galleryState !== 12 ? 'd-none' : 'servicioLabel'}>Servicio Contra Termitas</div>
+
+
       <div className="gallery">
           <button onClick={()=>{if(galleryState>1){setGalleryState(galleryState - 1)}}}>◀ </button>
 
 
           <img className={galleryState !== 1 ? 'd-none' : ''} src={g1} />
+
+
 
 
           <img className={galleryState !== 2 ? 'd-none' : ''} src={g5} />
@@ -148,6 +164,8 @@ console.log(galleryState)
 
 
 
+
+
       <div className='barras'>
         <div className={galleryState !== 1 ? 'claro' : 'oscuro'}></div>
         <div className={galleryState !== 2 ? 'claro' : 'oscuro'}></div>
@@ -164,7 +182,7 @@ console.log(galleryState)
       </div>
 
 
-      
+     
 
       <div className="sombra">
         <img src={img2} />
