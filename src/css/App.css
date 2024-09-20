@@ -36,7 +36,7 @@ button{
 
 .whatsapp{
     position: fixed;
-    top: 90%; left: calc(100% - 100px);
+    top: 80%; left: calc(100% - 100px);
     width: 100px;
 }
 
