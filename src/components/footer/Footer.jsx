@@ -13,7 +13,7 @@ export default function Footer() {
                   
 				CONTACTO:<br />
 				Martin Roberto Jacott Muñoz <span>📱 662 1902558</span><br />
-				Roberto Carlos Jacott Alduenda <span>📱 6623174378</span><br />
+				Roberto Carlos Jacott Alduenda <span>📱 662 3174378</span><br />
 				<hr />
 				realcontrolhmo@outlook.com<br />
 				realcontrolhmo@gmail.com<br />

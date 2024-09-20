@@ -2,6 +2,7 @@
 
 import "./css/App.css";
 import img1 from "./imgs/rc1.jpg";
+import whatsapp from "./imgs/descargar.png";
 
 
 import { Routes, Route } from "react-router-dom";
@@ -41,6 +42,10 @@ function App() {
       <div className="sombra">
         <img src={img1} style={{ marginBottom: "20px" }} />
       </div>
+
+       <a href="https://api.whatsapp.com/send?phone=6623174378&text=¡Hola, Me Comunico desde su Página Web!">
+        <img className='whatsapp' src={whatsapp} alt="whatsapp" />
+      </a>
 
       
       <Footer />
