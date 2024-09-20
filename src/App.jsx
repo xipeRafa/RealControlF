@@ -43,7 +43,7 @@ function App() {
         <img src={img1} style={{ marginBottom: "20px" }} />
       </div>
 
-       <a href="https://api.whatsapp.com/send?phone=526621902558&text=¡Hola, Me Comunico desde su Página Web!" target='_blank'>
+      <a href="https://api.whatsapp.com/send?phone=52+5216621942066&text=¡Hola, Me Comunico desde su Página Web!" target='_blank'>
         <img className='whatsapp' src={whatsapp} alt="whatsapp" />
       </a>
 
