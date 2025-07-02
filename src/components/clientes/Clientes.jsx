@@ -40,7 +40,7 @@ export default function Header() {
   return (
     <div className="clientes">
 
-    <h2>Estos Fueron y Siguen Siendo Algunos de Nuestros Clientes</h2>
+    <h2 className='h2Header'>Estos Fueron y Siguen Siendo Algunos de Nuestros Clientes</h2>
 <hr />
         <div className='clientesContainer'>
             <div><img src={c3} /></div>

@@ -28,7 +28,12 @@
 	color: white;
 }
 
-
+.h2Header{
+	text-transform: uppercase;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: 600;
+}
 
 
 @media(max-width:1000px){
