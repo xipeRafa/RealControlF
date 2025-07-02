@@ -67,9 +67,27 @@ export default function Header() {
 
 
                         <div className='clientesLista'>
-                            Restaurantes, Hoteles y Moteles, Escuelas, Plazas Comerciales,
-                            Supermercados, Industrias, Campos, Almacenes, Bodegas, Hospitales,
-                            Abarrotes, Residencias y Departamentos.
+                            
+                            <div>
+                                <li>Restaurantes </li>
+                                <li>Hoteles y Moteles</li>
+                                <li>Escuelas</li> 
+                                <li>Plazas Comerciales</li>
+                                <li>Supermercados</li> 
+                                <li>Industrias</li> 
+                                <li>Campos</li>
+                            </div>
+
+                            <div >
+                                <li>Almacenes</li>
+                                <li>Bodegas</li>
+                                <li>Hospitales</li>
+                                <li>Abarrotes</li> 
+                                <li>Residencias</li> 
+                                <li>Departamentos</li>
+                                <li>Talleres</li>
+                            </div>
+                            
                         </div>
 
             </div>
