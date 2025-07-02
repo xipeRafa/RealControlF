@@ -6,7 +6,6 @@ import img2 from "../../imgs/rc3.png";
 
 
 import g1 from "../../imgs/gallery/1.png";
-// import g2 from "../../imgs/gallery/2.png";
 import g3 from "../../imgs/gallery/3.png";
 import g4 from "../../imgs/gallery/4.png";
 
@@ -181,11 +180,7 @@ export default function Servicios() {
       </div>
 
 
-     
-{/*
-      <div className="sombra">
-        <img src={img2} />
-      </div>*/}
+    
 
   </>);
 }
