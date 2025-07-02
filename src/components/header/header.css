@@ -16,8 +16,21 @@ header>span{
 }
 
 
+.img2>img{
+  width: 80%;
+  box-shadow: none;
+}
+
+
 @media(max-width:900px){
   header>p{
     font-size: 17px;
   }
+
+  .img2>img{
+  width: 100%;
+  box-shadow: none;
 }
+}
+
+

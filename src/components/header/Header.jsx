@@ -18,8 +18,8 @@ export default function Header() {
 
 
 
-        <div className="sombra">
-        <img src={img2} />
+      <div className="img2">
+            <img src={img2} />
       </div>
 
 
